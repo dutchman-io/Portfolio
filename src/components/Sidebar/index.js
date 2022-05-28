@@ -3,7 +3,7 @@ import {Link, NavLink} from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faHome, faUser, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+import {faHome, faUser, faEnvelope, faLink} from '@fortawesome/free-solid-svg-icons'
 const Sidebar =() => (
     <div className ='nav-bar'>
         <Link className ='logo' to ='/'>
@@ -23,7 +23,44 @@ const Sidebar =() => (
             </NavLink>
 
         </nav>
-      
+    <ul>
+    <li>
+    <a
+    target ='blank'
+    rel = 'noreferrer'
+    href ='https://linkedin.com/in/ehis-fidelis/'
+    >
+    
+    <FontAwesomeIcon icon={faLink} color ='#4d4d4e'/>
+    </a>
+    </li>
+
+     <li>
+    <a
+    target ='blank'
+    rel = 'noreferrer'
+    href ='https://github.com/dutchman-io/'
+    >
+    
+    <FontAwesomeIcon icon={faLink} color ='#4d4d4e'/>
+    </a>
+    </li>
+    
+
+    <li>
+    <a
+    target ='blank'
+    rel = 'noreferrer'
+    href ='https://twitter.com/dutchman_io/'
+    >
+    
+    <FontAwesomeIcon icon={faLink} color ='#4d4d4e'/>
+    </a>
+    </li>
+    
+    
+    
+    </ul>  
     </div>
 )
 
