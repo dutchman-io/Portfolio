@@ -1,20 +1,22 @@
-import {useState, useEffect} from 'react'
+import {useState} from 'react'
 import LogoTitle from '../../assets/images/logo-s.png'
 import {Link} from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-
+import Logo from  './Logo'
 
 const Home = () => {
-    const [letterClass, setLetterClass] = useState('text-animate')
+    const [letterClass /*setLetterClass*/] = useState('text-animate')
     const nameArray =['o', 'b', 'o', 'd', 'a', 'n']
     const jobArray =['s','o', 'f', 't', 'w', 'a', 'r','e',' ', ' d', 'e', 'v', 'l', 'o', 'p', 'e', 'r']
-    
-    useEffect(() =>{
-        return setTimeout(()=>{
-            setLetterClass('text-animate-hover')
-        }, 4000)
+
+
+/*useEffect(() => {
+    return setTimeout(() => {
+        setLetterClass('text-animate-hover')
+    },4000)
     }, [])
+*/
     return(
         <div className = 'container home-page'>
             <div className = 'text-zone'>
@@ -38,7 +40,8 @@ const Home = () => {
                 </h1>
                 <h2> Blockchain Developer / Fullstack Developer </h2>
                 <Link to ='/contact' className = 'flat-button'> CONTACT ME </Link>  
-            </div> 
+            </div>
+        <Logo />
         </div>
     ) 
 }
