@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import LogoTitle from '../../assets/images/logo-s.png'
+import LogoTitle from '../../assets/images/logo-e.png'
 import {Link} from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
@@ -7,7 +7,7 @@ import Logo from  './Logo'
 
 const Home = () => {
     const [letterClass /*setLetterClass*/] = useState('text-animate')
-    const nameArray =['o', 'b', 'o', 'd', 'a', 'n']
+    const nameArray =['h', 'i', 's',]
     const jobArray =['s','o', 'f', 't', 'w', 'a', 'r','e',' ', ' d', 'e', 'v', 'l', 'o', 'p', 'e', 'r']
 
 
@@ -35,7 +35,7 @@ const Home = () => {
 
                 <AnimatedLetters letterClass = {letterClass}
                 strArray = {jobArray}
-                idx ={22}/>
+                idx ={18}/>
 
                 </h1>
                 <h2> Blockchain Developer / Fullstack Developer </h2>

@@ -21,11 +21,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'gmail',
-        'template_YeJhZkgb',
-        form.current,
-        'your-token'
-      )
+        'gmail', 'template-and9jqc', form.current, 'PxLkkKQJva84tTpfL')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -97,7 +93,7 @@ const Contact = () => {
           Branka RadiČevića 19, 22000 <br />
           Sremska Mitrovica <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>thisisdutchman@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>

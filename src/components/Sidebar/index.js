@@ -1,9 +1,10 @@
 import './index.scss'
 import {Link, NavLink} from 'react-router-dom'
-import LogoS from '../../assets/images/logo-s.png'
-import LogoSubtitle from '../../assets/images/logo_sub.png'
+import LogoS from '../../assets/images/logo-e.png'
+import LogoSubtitle from '../../assets/images/me.jpg'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faHome, faUser, faEnvelope, faLink} from '@fortawesome/free-solid-svg-icons'
+import {faHome, faUser, faEnvelope, } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faGithub, faLinkedin, } from '@fortawesome/free-brands-svg-icons'
 const Sidebar =() => (
     <div className ='nav-bar'>
         <Link className ='logo' to ='/'>
@@ -31,7 +32,7 @@ const Sidebar =() => (
     href ='https://linkedin.com/in/ehis-fidelis/'
     >
     
-    <FontAwesomeIcon icon={faLink} color ='#4d4d4e'/>
+    <FontAwesomeIcon icon={faLinkedin} color ='#4d4d4e'/>
     </a>
     </li>
 
@@ -42,7 +43,7 @@ const Sidebar =() => (
     href ='https://github.com/dutchman-io/'
     >
     
-    <FontAwesomeIcon icon={faLink} color ='#4d4d4e'/>
+    <FontAwesomeIcon icon={faGithub} color ='#4d4d4e'/>
     </a>
     </li>
     
@@ -54,7 +55,7 @@ const Sidebar =() => (
     href ='https://twitter.com/dutchman_io/'
     >
     
-    <FontAwesomeIcon icon={faLink} color ='#4d4d4e'/>
+    <FontAwesomeIcon icon={faTwitter} color ='#4d4d4e'/>
     </a>
     </li>
     
