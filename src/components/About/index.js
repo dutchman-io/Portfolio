@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AnimatedLetters from '../AnimatedLetters'
 import {useState /*, useEffect*/} from 'react'
 import {
-      faAngular,
+      faBtc,
       faCss3,
       faGitAlt,
       faHtml5,
@@ -54,7 +54,7 @@ const About =() => {
           <div className="cubespinner">
 
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faBtc} color="#ff9900" />
             </div>
 
             <div className="face2">

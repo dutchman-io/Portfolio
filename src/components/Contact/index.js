@@ -86,12 +86,12 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Ehis Fidelis,
           <br />
-          Serbia,
+          Nigeria,
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
+          Benin City <br />
+          <br />
           <br />
           <span>thisisdutchman@gmail.com</span>
         </div>
