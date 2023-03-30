@@ -9,7 +9,7 @@ const Logo = () => {
 	const outlineLogoRef = useRef();
 	const solidLogoRef = useRef();
     
-   useEffect(() => {
+ /*  useEffect(() => {
     gsap.registerPlugin(DrawSVGPlugin)
 
     gsap
@@ -35,7 +35,7 @@ const Logo = () => {
       }
     )
   }, []) 
-
+*/
     return(
     <div className = 'logo-container' ref = {bgRef}>
 		<img ref = {solidLogoRef} className ='solid-logo' src = {LogoS} alt= "s"/>

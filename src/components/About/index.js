@@ -33,13 +33,13 @@ const About =() => {
 
 
         <p>
-			I'm very ambitious software developer looking for a role in
+			I'm very passionate software developer looking for a role in
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
         </p>
 
          <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
+            I'm naturally curious, and perpetually working on
             improving my skills one problem at a time.
           </p>
 

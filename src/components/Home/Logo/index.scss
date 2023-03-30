@@ -1,3 +1,20 @@
+@media only screen and (max-device-width: 1024px) {
+    .main web page box {
+        width: 100%; (full width)
+    }
+    .profile box {
+        width: 100%; (full width)
+        float: left; (right-edge wrap)
+    }
+    .article box {
+        width: 100%; (full width)
+        float: left; (right-edge wrap)
+    }
+    .sidebar box {
+        width: 100%; (full width)
+        float: left; (right-edge wrap)
+    }
+}
 .logo-container {
   z-index: 0;
   width: 400px;
